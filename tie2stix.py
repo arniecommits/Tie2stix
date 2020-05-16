@@ -1,4 +1,6 @@
 ###### Query McAfee ePO TIE Database via ePO queries and Output to STIX ###########################
+###### Author: Arnab Roy , Email: arnab_roy@mcafee.com ############################################
+
 import pycurl
 import pprint
 from io import BytesIO

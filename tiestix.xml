@@ -1,22 +1,22 @@
 <stix:STIX_Package 
 	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
 	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
-	xmlns:cybox="http://cybox.mitre.org/cybox-2"
-	xmlns:stix="http://stix.mitre.org/stix-1"
-	xmlns:indicator="http://stix.mitre.org/Indicator-2"
 	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:stix="http://stix.mitre.org/stix-1"
 	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
 	xmlns:example="http://example.com"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 id="example:Package-62e63fc4-0a47-4597-9aa2-0e9bf551b6da" version="1.2">
+	 id="example:Package-b0391b66-2f08-4ed5-baed-1394b82e83a9" version="1.2">
     <stix:STIX_Header>
         <stix:Description>Malicious File Hash Indicator</stix:Description>
     </stix:STIX_Header>
     <stix:Indicators>
-        <stix:Indicator id="example:indicator-df06df6c-6d21-48ec-9a33-e4f14d1fb16b" timestamp="2020-05-16T13:06:45.523181+00:00" xsi:type='indicator:IndicatorType'>
+        <stix:Indicator id="example:indicator-4f060f31-5a8c-4ca4-9533-f15e88265bab" timestamp="2020-05-16T13:30:49.090406+00:00" xsi:type='indicator:IndicatorType'>
             <indicator:Title>File Observable</indicator:Title>
             <indicator:Description>An indicator containing a File observable with an associated hash</indicator:Description>
             <indicator:Short_Description ordinality="1">MFE-Test1111+.exe</indicator:Short_Description>
@@ -24,8 +24,8 @@
             <indicator:Short_Description ordinality="3">Crack.exe</indicator:Short_Description>
             <indicator:Short_Description ordinality="4">ipras.vbs</indicator:Short_Description>
             <indicator:Short_Description ordinality="5">Unius.exe</indicator:Short_Description>
-            <indicator:Observable id="example:Observable-06f9aea1-afa8-4164-90c3-e7f06e78c07f">
-                <cybox:Object id="example:File-b0c52fe4-47a3-4413-82dc-3117bff3924d">
+            <indicator:Observable id="example:Observable-c57cd029-4d03-4482-9a83-3207b8874094">
+                <cybox:Object id="example:File-cb43955a-6719-41db-9d22-179bb961e127">
                     <cybox:Properties xsi:type="FileObj:FileObjectType">
                         <FileObj:Hashes>
                             <cyboxCommon:Hash>
@@ -57,7 +57,7 @@
                     <stixCommon:Name>McAfee LLC.</stixCommon:Name>
                 </stixCommon:Identity>
                 <stixCommon:Time>
-                    <cyboxCommon:Produced_Time>2020-05-16T13:06:45.524280+00:00</cyboxCommon:Produced_Time>
+                    <cyboxCommon:Produced_Time>2020-05-16T13:30:49.091350+00:00</cyboxCommon:Produced_Time>
                 </stixCommon:Time>
             </indicator:Producer>
         </stix:Indicator>
