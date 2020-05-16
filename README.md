@@ -1,5 +1,5 @@
 # Tie2stix
-Allow conversion to McAfee Threat Intelligence Exchange File hashes as STIX XML File for Ingestion into SIEM/TIP
+Allow conversion from McAfee Threat Intelligence Exchange File hashes as STIX XML File for Ingestion into SIEM/TIP
 
 Install Instructions
 
