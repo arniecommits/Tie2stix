@@ -2,7 +2,6 @@
 ###### Author: Arnab Roy , Email: arnab_roy@mcafee.com ############################################
 
 import pycurl
-import pprint
 from io import BytesIO
 from xml.etree import ElementTree
 import warnings
